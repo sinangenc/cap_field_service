@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A simple CAP project.",
   "dependencies": {
-    "@cap-js/hana": "^2.3.4",
+    "@cap-js/hana": "^2",
     "@sap/cds": "^9",
     "express": "^4"
   },
@@ -21,5 +21,12 @@
   ],
   "sapux": [
     "app/admin"
-  ]
+  ],
+  "cds": {
+    "requires": {
+      "[production]": {
+        "db": "hana"
+      }
+    }
+  }
 }
