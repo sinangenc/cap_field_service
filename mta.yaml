@@ -39,7 +39,7 @@ modules:
 
   - name: field-service-app-deployer
     type: com.sap.application.content
-    path: gen
+    path: . #CHANGED:  gen
     requires:
       - name: field-service-auth
       - name: srv-api
@@ -49,12 +49,12 @@ modules:
           config:
             HTML5Runtime_enabled: true
     build-parameters:
-      build-result: app/
+      build-result: resources/ #CHANGED: app/
       requires:
         - name: fieldserviceadmin
           artifacts:
             - admin.zip
-          target-path: app/
+          target-path: resources/ #CHANGED: app/
     parameters:
       config:
         HTML5Runtime_enabled: true
