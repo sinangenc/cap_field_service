@@ -1,0 +1,6 @@
+ID;createdAt;createdBy;modifiedAt;modifiedBy;parent_ID;description;durationHours;price_amount;price_currency_code
+d1b2c3d4-w001-4aa1-b001-000000000001;2025-10-23T09:00:00Z;alex.miller@example.com;2025-10-23T09:30:00Z;alex.miller@example.com;c1b2c3d4-r001-4aa1-b001-000000000001;Checked router configuration;1.50;75.00;USD
+d1b2c3d4-w002-4aa1-b002-000000000002;2025-10-23T09:10:00Z;sara.lee@example.com;2025-10-23T09:40:00Z;sara.lee@example.com;c1b2c3d4-r002-4aa1-b002-000000000002;Replaced faulty cable;0.75;45.00;USD
+d1b2c3d4-w003-4aa1-b003-000000000003;2025-10-23T09:20:00Z;john.doe@example.com;2025-10-23T09:50:00Z;john.doe@example.com;c1b2c3d4-r003-4aa1-b003-000000000003;Reset VPN connection;1.00;60.00;USD
+d1b2c3d4-w004-4aa1-b004-000000000004;2025-10-23T09:30:00Z;emma.jones@example.com;2025-10-23T10:00:00Z;emma.jones@example.com;c1b2c3d4-r004-4aa1-b004-000000000004;Patched dashboard module;2.50;150.00;USD
+d1b2c3d4-w005-4aa1-b005-000000000005;2025-10-23T09:40:00Z;michael.brown@example.com;2025-10-23T10:10:00Z;michael.brown@example.com;c1b2c3d4-r005-4aa1-b005-000000000005;Investigated crash logs;1.25;80.00;USD

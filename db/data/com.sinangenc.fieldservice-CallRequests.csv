@@ -1,0 +1,6 @@
+ID;createdAt;createdBy;modifiedAt;modifiedBy;customer_ID;description;status;urgency;assignedTo_ID
+c1b2c3d4-r001-4aa1-b001-000000000001;2025-10-22T08:00:00Z;sara.lee@example.com;2025-10-22T09:00:00Z;sara.lee@example.com;b1b2c3d4-c001-4aa1-b001-000000000001;Internet not working;N;H;a1b2c3d4-e002-4aa1-b002-000000000002
+c1b2c3d4-r002-4aa1-b002-000000000002;2025-10-22T09:00:00Z;john.doe@example.com;2025-10-22T10:00:00Z;john.doe@example.com;b1b2c3d4-c002-4aa1-b002-000000000002;Router needs reset;A;M;a1b2c3d4-e001-4aa1-b001-000000000001
+c1b2c3d4-r003-4aa1-b003-000000000003;2025-10-22T10:00:00Z;alex.miller@example.com;2025-10-22T10:30:00Z;alex.miller@example.com;b1b2c3d4-c003-4aa1-b003-000000000003;Slow connection on VPN;I;L;a1b2c3d4-e003-4aa1-b003-000000000003
+c1b2c3d4-r004-4aa1-b004-000000000004;2025-10-22T11:00:00Z;emma.jones@example.com;2025-10-22T11:30:00Z;emma.jones@example.com;b1b2c3d4-c004-4aa1-b004-000000000004;Cannot access dashboard;R;M;a1b2c3d4-e004-4aa1-b004-000000000004
+c1b2c3d4-r005-4aa1-b005-000000000005;2025-10-22T12:00:00Z;michael.brown@example.com;2025-10-22T12:30:00Z;michael.brown@example.com;b1b2c3d4-c005-4aa1-b005-000000000005;Email client crashes;C;H;a1b2c3d4-e005-4aa1-b005-000000000005

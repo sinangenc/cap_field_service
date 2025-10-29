@@ -1,0 +1,16 @@
+###
+GET http://localhost:4004/odata/v4/admin/Users HTTP/1.1
+
+### Yeni Kullanıcı Kaydet (POST)
+POST http://localhost:4004/odata/v4/admin/Users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "ID": "b3b5f4e0-9a4b-4bcd-b1ab-97d4d6f7d123",
+  "firstName": "Ahmet",
+  "lastName": "Yılmaz",
+  "email": "ahmet.yilmaz@example.com",
+  "phone": "+905551112233",
+  "isActive": true
+}
